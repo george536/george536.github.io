@@ -657,6 +657,7 @@ h2.resp-accordion {
 	font-size: 15px;
 	color: #7e7e7e;
 	line-height: 1.5em;
+	overflow-wrap: break-word;
 }
 .about-sectiongrids{
 	padding: 40px 0px;
@@ -922,6 +923,7 @@ padding-bottom: 2em;
 			}
 			.about-text p{
 				font-size:1em;
+				overflow-wrap: break-word;
 			}
 			.poll-desc h4 {
 				font-size: 16px;
@@ -1029,7 +1031,7 @@ padding-bottom: 2em;
 				width: 80%;
 			}
 			.about-text p {
-				
+				overflow-wrap: break-word;
 				overflow: hidden;
 			}
 			.about-sectiongrids {
@@ -1198,6 +1200,7 @@ padding-bottom: 2em;
 		.about-text p {
 			height: 46px;
 			overflow: hidden;
+			overflow-wrap: break-word;
 		}
 		.about-header h3 {
 			font-size: 1.5em;
@@ -1491,6 +1494,7 @@ padding-bottom: 2em;
 			height: 37px;
 			overflow: hidden;
 			font-size: 0.9em;
+			overflow-wrap: break-word;
 		}
 		.about-imag {
 			width: 30%;
