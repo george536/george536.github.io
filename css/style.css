@@ -1030,7 +1030,7 @@ padding-bottom: 2em;
 			}
 			.about-text p {
 				height:1000px,
-				overflow: hidden;
+				overflow: visible;
 			}
 			.about-sectiongrids {
 				padding: 25px 0px;
@@ -1197,7 +1197,7 @@ padding-bottom: 2em;
 		}
 		.about-text p {
 			height: 46px;
-			overflow: hidden;
+			overflow: visible;
 		}
 		.about-header h3 {
 			font-size: 1.5em;
@@ -1489,7 +1489,7 @@ padding-bottom: 2em;
 		}
 		.about-text p {
 			height: 500px;
-			
+			overflow : visible;
 			font-size: 0.9em;
 		}
 		.about-imag {
