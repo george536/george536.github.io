@@ -1488,8 +1488,8 @@ padding-bottom: 2em;
 			padding: 1em 0;
 		}
 		.about-text p {
-			height: 37px;
-			overflow: hidden;
+			height: 500px;
+			
 			font-size: 0.9em;
 		}
 		.about-imag {
