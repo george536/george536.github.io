@@ -33,18 +33,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			&&
 			document.getElementById("message").value!=""){
 
-				var xmlhttp = new XMLHttpRequest();
-                        xmlhttp.onreadystatechange = function() {
+// 				var xmlhttp = new XMLHttpRequest();
+//                         xmlhttp.onreadystatechange = function() {
                           
-                        };
-                        xmlhttp.open("POST", "http://maconnect.online/georgeContactForm.php",true);
-                        xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-                        xmlhttp.send(
-							"name=" + document.getElementById("name").value
-						+ "&email=" + document.getElementById("email").value
-						+ "&phone=" +document.getElementById("phone").value
-						+ "&message=" +document.getElementById("message").value
-						);
+//                         };
+                        //xmlhttp.open("POST", "http://maconnect.online/georgeContactForm.php",true);
+                        //xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                        //xmlhttp.send(
+// 							"name=" + document.getElementById("name").value
+// 						+ "&email=" + document.getElementById("email").value
+// 						+ "&phone=" +document.getElementById("phone").value
+// 						+ "&message=" +document.getElementById("message").value
+// 						);
 			}else{
 				alert(`Name, Email, and Message are required please. Thank you`);
 			}
