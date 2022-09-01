@@ -463,7 +463,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 
 			<div class="contact">
-				<form>
+				<form  onsubmit="sendContact()" method = "post">
 					<div class="col-md-4 contactgrid">
 						<input type="text" class="text" id = 'name' value=" name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = ' name';}">
 					</div>
@@ -477,7 +477,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<textarea id = 'message' onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
 					</div>
 					<div class="col-md-4 contactgrid2">
-						<input type="submit" value="[Send Message]" onsubmit="sendContact()">
+						<input type="submit" value="[Send Message]">
 					</div>
 				   <div class="clearfix"></div>
 				</form>
