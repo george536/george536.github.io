@@ -45,6 +45,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						+ "&phone=" +document.getElementById("phone").value
 						+ "&message=" +document.getElementById("message").value
 						);
+			}else{
+				alert(`Name, Email, and Message are required please. Thank you`);
 			}
 		}
 	</script>
@@ -475,7 +477,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<textarea id = 'message' onfocus="if(this.value == 'Your Message') this.value='';" onblur="if(this.value == '') this.value='Your Message';" >Your Message</textarea>
 					</div>
 					<div class="col-md-4 contactgrid2">
-						<input type="submit" value="[send message]" onsubmit="sendContact()">
+						<input type="submit" value="[Send Message]" onsubmit="sendContact()">
 					</div>
 				   <div class="clearfix"></div>
 				</form>
