@@ -556,3 +556,35 @@ footer {
 .floating-home:hover {
     background-color: #16a085;
 }
+
+.project-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.project-links h4 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: #1abc9c;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.project-links a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+.media-grid video {
+    max-width: 100%; /* Ensures the video doesn't exceed the container's width */
+    max-height: 300px; /* Limits the height to prevent it from taking over the screen */
+    border-radius: 10px; /* Adds a slight border radius for a polished look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for depth */
+    object-fit: cover; /* Ensures the video fits nicely within its bounds */
+    margin: 10px auto; /* Adds spacing between the video and other elements */
+    display: block; /* Centers the video within the grid item */
+}
