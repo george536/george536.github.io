@@ -588,3 +588,22 @@ footer {
     margin: 10px auto; /* Adds spacing between the video and other elements */
     display: block; /* Centers the video within the grid item */
 }
+
+.project-card.coming-soon {
+    text-align: center;
+    opacity: 0.7; /* Dim it slightly to indicate it's not active yet */
+    cursor: default;
+}
+
+.project-card.coming-soon img {
+    filter: grayscale(100%); /* Optional: Add a grayscale filter */
+}
+
+.project-card.coming-soon:hover {
+    opacity: 0.9; /* Optional: Change opacity slightly on hover */
+}
+
+.project-card.coming-soon p {
+    font-size: 0.9rem;
+    color: #666;
+}
